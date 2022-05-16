@@ -611,6 +611,79 @@ section.upper .right {
           font-size: 15px;
       }
 
+      footer {
+          background: #fff;
+          height: 70vh;
+          min-height: 500px;
+      }
+
+      footer .container {
+          position: relative;
+          display: flex;
+          flex-direction: column;
+      }
+
+      footer .container .intro {
+          width: 180px;
+          margin-top: 80px;
+
+      }
+
+      footer .team {
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+      }
+
+      footer .intro h3 {
+          font-size: x-large;
+          font-family: poppins;
+          margin-bottom: 10px;
+      }
+
+      footer h3 span {
+          color: var(--nav-color);
+      }
+
+      footer h3 span.app {
+          color: var(--box1);
+          font-weight: lighter;
+      }
+
+      footer .table {
+          margin-top: 135px;
+          font-size: 12px;
+          height: 138px;
+          width: 600px;
+      }
+
+      footer table thead th {
+          text-align: left;
+      }
+
+      footer table thead td {
+          text-align: left;
+      }
+       
+      footer .intro p {
+          font-size: 12px;
+      }
+
+      footer table thead th {
+          font-weight: bold;
+          font-size: 19px;
+          padding-bottom: 10px;
+      }
+
+    footer table tbody tr:last-child td:last-child {
+        vertical-align: text-top;
+    }
+
+    footer .container > span {
+        position: absolute;
+        top: 470px;
+        font-size: 12.5px;
+    }
 
 
 
