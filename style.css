@@ -28,7 +28,7 @@ body {
     color: #333;
     font-family: Roboto, san-serif;
     font-size: 16px;
-    overflow-x: hidden;
+     overflow-x: hidden;
     appearance: none;
     outline: none;
 }
@@ -44,13 +44,14 @@ img {
 header,nav,
 section,footer {
     width: 82%;
-    margin: 0 120px 0 135px;
+
 }
 
 header {
     margin-top: 70px;
     background: red;
     height: 100px;
+    margin: 0 120px 0 135px;
 
 }
 
@@ -91,6 +92,7 @@ header h1 {
 nav {
     background: var(--nav-color);
     height: 60px;
+    margin: 0 120px 0 135px;
 }
 
 nav .container {
@@ -156,6 +158,7 @@ nav .logo {
      background: var(--nav-color);
      height: calc(70vh - 10px);
      min-height: 750px;
+     margin: 0 120px 0 135px;
  }
  
   section.upper .container {
@@ -303,9 +306,6 @@ section.upper .right {
     width: 4px;
 }
 
-
-
-
 .right .bottom.images .vertical {
     display: grid;
     grid-template: repeat(7, 13px) / repeat(3, 13px);
@@ -320,19 +320,21 @@ section.upper .right {
     width: 4px;
 }
 
-.right .bottom.images .horizontal {
+.right .bottom.images .horizontal{
     display: grid;
     grid-template: repeat(3, 13px) / repeat(7, 13px);
     justify-content: center;
     padding: 0 20px;
     position: absolute;
-    bottom: 12px;
+    bottom: 13px;
     left: 268px;
 }
 
 .right .bottom.images .horizontal img {
     width: 4px;
 }
+
+
 
 .profile1 {
     width: 300px;
@@ -359,6 +361,41 @@ section.upper .right {
 
     .profile1 .photo {
         margin-top: -5px;
+    }
+
+    .ellipse {
+        width: 4rem;
+        height: 2rem;
+        background: var(--extra);
+        position: absolute;
+        left: 400px;
+        top: 180px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 0.2rem;
+        border-radius: 0 10px 10px 10px;
+    }
+
+    .ellipse1 {
+        width: 8px;
+        height: 8px;
+        border-radius: 50%;
+        background: var(--list-color);
+    }
+
+    .ellipse2 {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: var(--list-color);
+    }
+
+    .ellipse3 {
+        width: 5px;
+        height: 5px;
+        border-radius: 50%;
+        background: var(--list-color);
     }
 
     .profile2 {
@@ -388,6 +425,7 @@ section.upper .right {
             background: #fff;
             height: 80vh;
             min-height: 900px;
+            margin: 0 120px 0 135px;
         }
 
         section.middle .container {
@@ -462,6 +500,7 @@ section.upper .right {
           background: var(--section-lower);
           height: 95vh;
           min-height: 730px;
+          margin: 0 120px 0 135px;
       }
 
       section.lower .container {
@@ -615,6 +654,7 @@ section.upper .right {
           background: #fff;
           height: 70vh;
           min-height: 500px;
+          margin: 0 120px 0 135px;
       }
 
       footer .container {
@@ -629,7 +669,7 @@ section.upper .right {
 
       }
 
-      footer .team {
+      footer main {
           display: flex;
           justify-content: space-between;
           align-items: center;
@@ -684,6 +724,500 @@ section.upper .right {
         top: 470px;
         font-size: 12.5px;
     }
+    /* END OF STYLE */
+    
+
+    @Media screen and (max-width: 1180px) {
+        header {
+            margin-top: 65px;
+            height: 80px;
+        }
+        header .container{
+            height: 15px;
+        }
+
+        header .box.model div {
+            width: 25px;
+            height: 25px;
+        }
+
+        header h3 {
+            font-size: 15px;
+            margin-top: -15px; }
+    
+        nav .logo span{
+            font-size: 19.5px;
+        }
+
+        .list ul {
+            font-size: 11px;
+        }
+        .extra {
+            width: 25px;
+        }
+
+        section.upper{
+             margin-top: -5px;
+        }
+        section.upper .left h1 {
+            font-size: 3em;
+        }
+        .left .link {
+            height: 30px;
+        }
+        .left .link div {
+            width: 104px;
+            height: 35px;
+        }
+        .link div.zero {
+            margin-right: 10px;
+        }
+        .link div a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        section.upper .right {
+            margin-left: -15px;
+        }
+
+        .right .smile1 {
+            width: 130px;
+            height:200px;
+            
+        }
+
+        .right .smile2 {
+            width: 130px;
+            height:200px;
+            margin-right: -51px;
+        }
+        .right .ellipse {
+            left: 340px;
+        } 
+        .right .bottom.images .vertical {
+            position: absolute;
+            left: 275px;
+            top: 180px;
+        }
+        .right .bottom.images .horizontal {
+            position: absolute;
+            left: 223px;
+            top: 270px;
+        }
+
+        .profile1 {
+            position: absolute;
+            left: 238px;
+        }
+        .profile1 span {
+            width: 9rem;
+            font-size: 11px;
+        }
+        .profile2 {
+            position: absolute;
+            left: 120px;
+            top: 270px;
+            width: 120px;
+            display: flex;
+            gap: 0.5rem;
+        }
+        .profile2 span {
+            width: 4rem
+        }
+
+        section.middle h1 {
+            font-size: 2em;
+        }
+        section.lower p {
+            font-size: 14px;
+        }
+        section.lower .left .lowest.image .vertical {
+              top: 245px;
+              left: 255px;
+        }
+        section.lower .left .lowest.image .horizontal {
+            top: 336px;
+            left: 165px;
+      }
+        .pixel {
+            width: 600px;
+            height: 320px;
+        }
+        .rating .star {
+            width: 148px;
+        }
+
+       .right .rating .star img {
+            width: 16.5px;
+            height: 16.5px;
+        }
+        .rating span {
+            margin-left: -40px;
+        }
+
+        footer .table {
+            margin-left: 100px;
+            font-size: 11px;
+        }
+        footer .container > span {
+            margin-top: -25px;
+        }
+    }
+    @Media screen and (max-width: 1090px) {
+        section.upper .right {
+            margin-left: -43px;
+        }
+        .right .smile1 {
+            width: 130px;
+            height:200px;
+            
+        }
+        .right .smile2 {
+            width: 140px;
+            height: 200px;
+            margin-right: -42px;
+        }
+           
+        section.middle .head h1 {
+            font-size: 1.9em;
+        }
+        section.middle .head p {
+            font-size: 15px;
+        }
+        .right .rating .star img {
+            width: 14px;
+            height: 14px;
+        }
+
+        .link .null a.second {
+            display: inline-block;
+            padding: 8px 2px 2px 17px;
+        }
+        section.lower .left {
+            margin-right: -90px;
+              width: 600px;
+        }
+        section.lower .left .lowest.image .vertical {
+            top: 245px;
+            left: 330px;
+      }
+      section.lower .left .lowest.image .horizontal {
+          top: 336px;
+          left: 241px;
+    }
+    section.lower .right h1 {
+        font-size: 1.9em;
+    }
+    section.lower .right .rating {
+        margin-top: 35px;
+
+    }
+    section.upper {
+        min-height: 660px;
+        z-index: 2;
+    }
+    section.middle {
+        min-height: 720px;
+        margin-top: -40px;
+        z-index: 1;
+    }
+    section.lower {
+        min-height: 600px;
+    }
+    footer {
+        min-height: 400px;
+    }
+
+    footer .container > span {
+        margin-top: -45px;
+    }
+    }
+    @media screen and (max-width: 1078px) {
+        section.upper .right {
+            margin-left: -51px;
+        }
+        section.lower .left .lowest.image .vertical {
+            top: 245px;
+            left: 310px;
+      }
+      section.lower .left .lowest.image .horizontal {
+          top: 336px;
+          left: 220px;
+    }
+
+    }
+    @media screen and (max-width: 1071px) {
+        section.upper .right {
+            margin-left: -57px;
+        }
+    }
+    @media screen and (max-width: 1065px) {
+        section.upper .right {
+            margin-left: -60px;
+        }
+    }
+    @media screen and (max-width: 1060px) {
+        section.upper .right {
+            margin-left: -78px;
+        }
+        .right .smile2 {
+            top: 230px;
+            margin-right: -35px;
+        }
+        
+        section.lower .left .lowest.image .vertical {
+            top: 245px;
+            left: 295px;
+      }
+      section.lower .left .lowest.image .horizontal {
+          top: 336px;
+          left: 207px;
+    }
+    
+    }
+    @media screen and (max-width: 1045px) {
+        section.upper .right {
+            margin-left: -90px;
+        }
+        .right .smile2 {
+            top: 230px;
+        } 
+        section.upper .left h1 {
+            font-size: 2.8em;
+        } 
+    }
+    @media screen and (max-width: 1033px) {
+        section.upper .right {
+            margin-left: -100px;
+        }
+        .right .smile2 {
+            top: 230px;
+        } 
+        section.upper .left h1 {
+            font-size: 2.8em;
+        }
+        section.middle .head p {
+          font-size: 13.4px;
+        } 
+    }
+
+    @media screen and (max-width: 1019px) {
+        section.upper .right {
+            margin-left: -105px;
+        }
+        section.upper .left h1 {
+            font-size: 2.5em;
+        } 
+          
+        section.lower .left .lowest.image .vertical {
+            top: 245px;
+            left: 270px;
+      }
+      section.lower .left .lowest.image .horizontal {
+          top: 336px;
+          left: 180px;
+    }
+
+    }
+
+    @Media screen and (max-width: 1011px) {
+        section.upper .right {
+            margin-left: -115px;
+        }
+
+ } 
+
+ @Media screen and (max-width: 1003px) {
+    section.upper .right {
+        margin-left: -115px;
+    }
+
+    section.lower .container .right h1 {
+        font-size: 1.7em;
+        line-height: 1.3;
+    }
+
+    section.lower .right .target > div {
+        width: 7rem;
+    }
+    section.lower .right .target .all {
+        margin-right: 55px;
+    }
+    section.lower .right .target .all a {
+        display: inline-block;
+        padding: 6px 2px 2px 15px;
+    }
+
+}
+
+@media screen and (max-width: 999px) {
+    section.upper .right {
+        margin-left: -115px;
+    }
+    .right .smile1 {
+        width: 130px;
+        height:200px;
+        
+    }
+    .right .smile2 {
+        width: 140px;
+        height: 200px;
+        margin-right: -42px;
+    }
+       
+}
+@Media screen and (max-width: 988px) {
+    section.upper .right {
+        margin-left: -120px;
+    }
+    .right .smile1 {
+        width: 120px;
+        height:180px;
+        
+    }
+    .right .smile2 {
+        width: 120px;
+        height: 180px;
+        margin-right: -30px;
+    }
+    section.upper .right .bottom.images .vertical {
+        position: absolute;
+        left: 262px;
+        top: 176px;
+    }
+    section.upper .right .bottom.images .horizontal {
+        position: absolute;
+        left: 222px;
+        top: 245px;
+    }
+    .right .bottom.images .vertical {
+        display: grid;
+        grid-template: repeat(7, 10px) / repeat(3, 10px);
+        justify-content: center;
+        padding: 0 20px;
+        position: absolute;
+        bottom: 50px;
+        left: 320px;
+    }
+    
+    .right .bottom.images .vertical img {
+        width: 3px;
+    }
+    
+    .right .bottom.images .horizontal{
+        display: grid;
+        grid-template: repeat(3, 10px) / repeat(7, 10px);
+        justify-content: center;
+        padding: 0 20px;
+        position: absolute;
+        bottom: 13px;
+        left: 268px;
+    }
+    .right .bottom.images .horizontal img {
+        width: 3px; }
+
+        
+.right .top.image .vertical {
+    display: grid;
+    grid-template: repeat(10, 13px) / repeat(2, 13px);
+    justify-content: center;
+    padding: 0 20px;
+    position: absolute;
+    top: 38px;
+    left: 110px;
+}
+
+.right .top.image .vertical img {
+    width: 3px;
+}
+
+.right .top.image .horizontal {
+    display: grid;
+    grid-template: repeat(2, 10px) / repeat(8, 10px);
+    justify-content: center;
+    padding: 0 20px;
+    position: absolute;
+    top: 38px;
+    left: 135px;
+}
+
+.right .top.image .horizontal img {
+    width: 3px;
+}
+
+.profile1 {
+    display: flex;
+    gap: 0.5rem;
+    position: absolute;
+    left: 210px;
+}
+.profile1 span {
+    width: 7.5rem;
+    font-size: 10px;
+    display: inline-block;
+    padding: 8px 2px 2px 2px;
+}
+.profile2 {
+    position: absolute;
+    left: 110px;
+    top: 270px;
+    width: 120px;
+    display: flex;
+    gap: 0.3rem;
+}
+.profile2 span {
+    margin-left: 2rem;
+    width: 3.5rem;
+    font-size: 10px;
+    padding: 8px 1px 1px 10px;
+}
+
+section.lower .left {
+    margin-right: -120px;
+      width: 600px;
+}
+
+footer .table th {
+    font-size: 14px;
+}
+footer .table th,td {
+    width: 80px;
+    height: 30px;
+    text-align: center;
+}
+
+         
+}
+@media screen and (max-width: 952px) {
+    section.upper .left h1 {
+      font-size: 2.5em;
+    }
+    section.upper .left {
+        margin-left: -15px;
+    }
+     section.upper .left p {
+       font-size: 15px;
+     }
+     section.upper .right {
+        margin-left: -140px;
+    }
+    .right .smile2 {
+        margin-right: -30px;
+    }
+    section.lower .left {
+        margin-right: -150px;
+          width: 600px;
+    }
+}
+@media screen and (max-width: 917px) {
+    
+}
+
+
+
+   
 
 
 
