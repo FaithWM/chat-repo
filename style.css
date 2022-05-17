@@ -1204,7 +1204,7 @@ footer .table th,td {
         margin-left: -140px;
     }
     .right .smile2 {
-        margin-right: -30px;
+        margin-right: -10px;
     }
     section.lower .left {
         margin-right: -150px;
@@ -1212,6 +1212,106 @@ footer .table th,td {
     }
 }
 @media screen and (max-width: 917px) {
+    section.lower .container .right h1 {
+        font-size: 1.6em;
+    }
+
+    section.lower .right .target > div {
+        font-size: 14px;
+        width: 6rem;
+    }
+    section.lower .right .target .all {
+        margin-right: 82px;
+    }
+    section.lower .right .target .all a {
+        display: inline-block;
+        padding: 8px 2px 2px 12px;
+    }
+    section.lower .right .target .hero a {
+        display: inline-block;
+        padding: 8px 2px 2px 16px;
+    }
+    section.lower .left {
+        margin-right: -175px;
+          width: 600px;
+    }
+    .right .rating .star img {
+        width: 13px;
+        height: 13px;
+    }
+    .right .rating span {
+        font-size: 13px;
+    }
+    section.lower .right > span {
+        font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 934px) {
+    section.upper .left p {
+        font-size: 14px;
+      } 
+      section.upper .left {
+        margin-left: -20px;
+    } 
+    section.upper .left h1 {
+        font-size: 2.3em;
+      } 
+      
+      section.upper .right {
+        margin-left: -145px;
+    }
+    .right .smile1 {
+        width: 118px;
+        height:170px;
+        
+    }
+    .right .smile2 {
+        width: 118px;
+        height: 170px;
+        margin-right: -14px;
+    }
+     section.upper .right .bottom.images .horizontal{
+        position: absolute;
+        top: 238px;
+        left: 221px; }
+        section.upper .right .bottom.images .vertical {
+            position: absolute;
+            left: 260px;
+            top: 168px;
+        }
+}
+
+@Media screen and (max-width: 911px) {
+    .left .link {
+        height: 30px;
+    }
+    section.upper .left .link div {
+        width: 90px;
+        height: 30px;
+       
+    }
+    .link div.zero {
+        margin-right: 10px;
+    }
+    section.upper .link div a {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 1px;
+    }
+    section.upper .link div.zero a {
+        padding: 8px 5px 3px 17px;
+        font-size: 13px;
+    }
+    section.upper .link div.null a {
+        padding: 6px 6px 3px 13px;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width: 885px) {
     
 }
 
