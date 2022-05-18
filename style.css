@@ -842,8 +842,8 @@ section.upper .right {
             left: 165px;
       }
         .pixel {
-            width: 600px;
-            height: 320px;
+            width: 300px;
+            height: 300px;
         }
         .rating .star {
             width: 148px;
@@ -1312,8 +1312,256 @@ footer .table th,td {
 }
 
 @media screen and (max-width: 885px) {
+    section.middle .body .up.image .vertical {
+        position: absolute;
+        top: 25px;
+        left: -10px;
+    }
+    section.middle .body .up.image .vertical img {
+        width: 3px;
+    }
+    section.middle .body .up.image .horizontal {
+        position: absolute;
+        top: -2px;
+        left: -10px;
+
+    }
+    section.middle .body  .up.image .horizontal img {
+        width: 3px;
+    }
+
+    section.middle .body .down.image {
+        position: absolute;
+        right: -7px;
+        bottom: 40px;
+    }
+
+    section.middle .body .down.image img {
+         width: 3px;
+    }
+
+    section.middle .head h1 {
+        font-size: 1.7em;
+    }
+    section.middle .body {
+        margin-top: 40px;
+    }
+
+    section.lower .left .lowest.image .vertical {
+        top: 245px;
+        left: 248px;
+  }
+  section.lower .left .lowest.image .vertical img {
+      width: 3px;
+  }
+
+  section.lower .left .lowest.image .horizontal {
+      top: 336px;
+      left: 159px;
+}
+
+section.lower .left .lowest.image .horizontal img {
+    width: 3px;
+}
+
+section.lower .left .lower.image img {
+    width: 3px;
+}
+
+.rating .star {
+    margin-left: 15px;
+}
+.rating span {
+    width: 128px;
+}
+footer .table th {
+    font-size: 12px;
+}
+footer .table th,td {
+    width: 90px;
+    height: 35px;
+    text-align: left;
+}
+
+
+}
+@media screen and (max-width: 878px) {
+    section.upper .right {
+        margin-left: -175px;
+    }
+    section.upper .right .smile1 {
+        width: 110px;
+        height:160px;
+        
+    }
+    section.upper .right .smile2 {
+        width: 110px;
+        height: 160px;
+        margin-right: -6px;
+    }
+         
+section.upper .right .bottom.images .vertical {
+    top: 155px;
+    left: 250px;
+}
+
+section.upper .right .bottom.images .horizontal {
+    top: 225px;
+    left: 210px;
+}
+.ellipse {
+    width: 3rem;
+}
+.profile1 span {
+    width: 6rem;
+    font-size: 8.2px;
+    display: inline-block;
+    padding: 8px 2px 2px 2px;
+}
+.profile1 {
+    position: absolute;
+    left: 190px;
+    top: 100px;
+}
+section.lower .left .lowest.image .vertical {
+    top: 225px;
+    left: 238px;
+}
+
+section.lower .left .lowest.image .horizontal {
+    top: 316px;
+    left: 149px;
+}
+footer .table {
+    margin-right: -70px;
+    width: 900px;
+}
     
 }
+@media  screen and (max-width: 838px) {
+    section.lower .left .lowest.image .vertical {
+        top: 225px;
+        left: 210px;
+    }
+    
+    section.lower .left .lowest.image .horizontal {
+        top: 316px;
+        left: 121px;
+    } 
+    section.lower .right {
+        margin-right: -10px;
+    }   
+}
+
+@media screen and (max-width: 827px) {
+    section.upper .right {
+        margin-top: -30px;
+    }
+    section.upper .right .smile2 {
+        margin-right: -23px;
+    }
+    }
+
+    @media screen and (max-width: 812px) {
+        section.lower .left .lowest.image .vertical {
+            top: 220px;
+            left: 200px;
+        }
+        
+        section.lower .left .lowest.image .horizontal {
+            top: 311px;
+            left: 111px;
+        } 
+        section.lower .left {
+            margin-right: -183px;
+        } 
+
+        .right .rating .star img {
+            width: 11px;
+            height: 11px;
+        }
+        section.middle .head h1 {
+            margin-right: 60px;
+        }
+        section.middle .container .head p {
+            margin: 0 auto;
+            margin-right: 60px;
+        }
+    }
+
+    @media screen and (max-width: 808px) {
+        section.upper .right .bottom.images .vertical {
+            top: 155px;
+            left: 250px;
+        }
+        
+        section.upper .right .bottom.images .horizontal {
+            top: 225px;
+            left: 210px;
+        }
+        section.upper .right {
+            margin-top: -30px;
+        }  
+        section.upper .right .smile2 {
+            width: 110px;
+            height: 160px;
+            margin-right: -6px;
+        } 
+        .left .link {
+            height: 30px;
+        }
+        section.upper .left .link div {
+            width: 90px;
+            height: 30px;
+           
+        }
+        .link div.zero {
+            margin-right: 10px;
+        }
+        section.upper .link div a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1px;
+        }
+        section.upper .link div.zero a {
+            padding: 8px 5px 3px 17px;
+            font-size: 13px;
+        }
+        section.upper .link div.null a {
+            padding: 6px 6px 3px 13px;
+            font-size: 13px;
+        } 
+        section.upper .left h1 {
+            font-size: 2.5em;
+          }
+          section.upper .left {
+              margin-left: -15px;
+          }
+           section.upper .left p {
+             font-size: 15px;
+           } 
+           .right .smile1 {
+            width: 100px;
+            height:120px;
+            
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
