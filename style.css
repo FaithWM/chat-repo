@@ -1500,18 +1500,24 @@ footer .table {
             left: 210px;
         }
         section.upper .right {
-            margin-top: -30px;
+            margin-top: -50px;
+            margin-left: -130px;
         }  
         section.upper .right .smile2 {
-            width: 110px;
-            height: 160px;
-            margin-right: -6px;
+            width: 100px;
+            height: 130px;
+            margin-top: -55px;
+            margin-right: -30px;
+        } 
+        section.upper .right .smile1 {
+            width: 100px;
+            height: 130px;
         } 
         .left .link {
             height: 30px;
         }
         section.upper .left .link div {
-            width: 90px;
+            width: 75px;
             height: 30px;
            
         }
@@ -1522,31 +1528,358 @@ footer .table {
             display: flex;
             justify-content: center;
             align-items: center;
-            font-size: 1px;
+            font-size: 8px;
         }
         section.upper .link div.zero a {
-            padding: 8px 5px 3px 17px;
-            font-size: 13px;
+            padding: 8px 5px 3px 15px;
+            font-size: 11.5px;
         }
         section.upper .link div.null a {
-            padding: 6px 6px 3px 13px;
-            font-size: 13px;
+            padding: 7px 6px 3px 8px;
+            font-size: 11.5px;
         } 
         section.upper .left h1 {
-            font-size: 2.5em;
+            font-size: 2.2em;
           }
           section.upper .left {
               margin-left: -15px;
           }
            section.upper .left p {
-             font-size: 15px;
+             font-size: 13px;
            } 
-           .right .smile1 {
-            width: 100px;
-            height:120px;
-            
+          
+           section.upper .right .bottom.images .vertical {
+            top: 125px;
+            left: 240px;
+        }
+        
+        section.upper .right .bottom.images .horizontal {
+            top: 195px;
+            left: 200px;
+        }
+        .profile1 {
+            position: absolute;
+            left: 175px;
+            top: 70px;
+        }
+        .profile1 span {
+            width: 5rem;
+            font-size: 8px;
+            display: inline-block;
+            padding: 4px 1px 1px 5px;
+        }
+        .right .ellipse {
+            width: 2.5rem;
+            position: absolute;
+            left: 310px;
+            top: 115px;
+        }
+        .profile2 {
+            left: 84px;
+            top: 200px;
+            width: 120px;
+            display: flex;
+            gap: 0.5rem;
+        }
+        .profile2 span {
+            width: 3rem;
+            height: 1.5rem;
+            font-size: 8px;
+            display: inline-block;
+            padding: 8px 1px 1px 8px;
+        }
+        .profile.photo {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            clip-path: circle(50% at 47% 50%);
+        }
+        
+        .profile1 .photo {
+            clip-path: circle(45% at 47% 70%);
+        
+        }
+        
+        .profile2 .photo {
+            clip-path: circle(44% at 47% 52%);
+        
+        }
+        section.middle .body .down.image {
+            position: absolute;
+            right: -11px;
+            bottom: 40px;
+        }
+        section.lower .container .right h1 {
+            font-size: 1.3em;
+        }
+        section.lower .container .right span {
+            font-size: 15px;
+        }
+    
+        section.lower .right .target > div {
+            font-size: 12px;
+            width: 5rem;
+            height: 1.9rem;
+        }
+        section.lower .right .target .all {
+            margin-right: 118px;
+        }
+        section.lower .right .target .all a {
+            display: inline-block;
+            padding: 8px 2px 2px 12px;
+        }
+        section.lower .right .target .hero a {
+            display: inline-block;
+            padding: 8px 2px 2px 16px;
+        }
+        section.lower .right .rating span {
+            font-size: 12px;
+            margin-left: -80px;
         }
     }
+    @media screen and (max-width: 800px) {
+        section.upper .right .smile2 {
+            width: 100px;
+            height: 130px;
+            margin-top: 0;
+            margin-right: 15px;
+        }
+    }
+    
+    @media screen and (max-width: 786px) {
+        section.lower .right {
+            position: relative;
+            margin-left: -10px;
+            left: 20px;
+            top: -45px;
+        }
+        section.lower .container .right h1 {
+            position: absolute;
+            left: 95px;
+            top: -50px;
+        }
+        section.lower .container .right span {
+            position: absolute;
+            left: 90px;
+            top: 10px;
+        }
+
+        section.lower .right .target {
+            position: absolute;
+            top: 50px;
+            left: 92px;
+        }
+
+        section.lower .right .target .all a {
+            display: inline-block;
+            padding: 7px 7px 2px 10px;
+        }
+
+        section.lower .right .rating {
+            position: absolute;
+            top: 80px;
+            left: 80px;
+        }
+        section.lower .right .rating span {
+            font-size: 11px;
+            margin-left: -80px;
+        }
+        section.lower .left {
+            margin-left: 0;
+        }
+        section.lower .left .lowest.image .vertical {
+            top: 160px;
+            left: 230px;
+        }
+        
+        section.lower .left .lowest.image .horizontal {
+            top: 252px;
+            left: 140px;
+        } 
+        .pixel {
+            width: 240px;
+            height: 240px;
+        }
+        section.middle .container .head p {
+            margin: 0 auto;
+            margin-right: 85px;
+        }
+        section.middle .body .down.image {
+            position: absolute;
+            right: -19px;
+            bottom: 40px;
+        }
+        footer  {
+            position: relative;
+        }
+        footer .table {
+            position: absolute;
+            top: -90px;
+            left: 140px;
+            margin-right: -90px;
+            width: 180px;
+        }
+        footer .table th,td {
+            padding-right: 18px;
+            text-align: left;
+            font-size: 11px;
+        }
+        footer .intro {
+            position: absolute;
+            top: -25px;
+            left: 18px;
+        }
+        footer .intro h3 {
+            font-size: 21px;
+            font-family: poppins;
+            margin-bottom: 10px;
+        }
+
+    }
+    @media screen and (max-width: 740px) {
+        section.upper .right .smile2 {
+            width: 100px;
+            height: 130px;
+            margin-top: 10px;
+            margin-right: 15px;
+        }
+        nav .container{
+            position: relative;
+        }
+        nav .list {
+            position: absolute;
+            top: 30px;
+            right: 120px;
+        }
+        nav .list ul li {
+            margin-right: 10px;
+            text-align: right;
+        }
+        nav .extra {
+            position: absolute;
+            right: 30px;
+            top: 32px;
+            width: 80px;
+        }
+        nav .extra a {
+            margin-left: 13px;
+            display: inline-block;
+            padding: 1px 8px 2px 0;
+        }
+        section.middle .container .head p {
+            margin: 0 auto;
+            margin-right: 155px;
+        }
+        section.middle .head h1 {
+            margin-right: 120px;
+        }
+    }
+    @media screen and (max-width: 734px) {
+        section.upper .left h1 {
+            font-size: 2.1em;
+          }
+          section.upper .left {
+              margin-left: -35px;
+            }
+    }
+
+    
+          @media screen and (max-width: 715px) {
+              nav .logo {
+                  margin-left: -32px;
+              }
+              nav .extra {
+                position: absolute;
+                right: 52px;
+                top: 32px;
+            }
+            nav .list {
+                top: 30px;
+                right: 140px;
+            }
+            .profile1 {
+                left: 167px;
+                top: 70px;
+        }
+         footer .table {
+                    position: absolute;
+                    top: -90px;
+                    left: 108px;
+                    margin-right: -90px;
+                    width: 180px;
+            }
+
+    section.middle .body .big.image {
+        width: 400px;
+    }
+    section.middle .body .down.image {
+        position: absolute;
+        right: -65px;
+        bottom: 40px;
+    }
+         }
+
+    @Media screen and (max-width: 702px) {
+        section.middle .container .head p {
+            margin: 0 auto;
+            margin-right: 175px;
+        }
+        section.middle .head h1 {
+            margin-right: 170px;
+        }
+        section.upper .left p {
+            width: 140px;
+          }
+          section.upper .right {
+            margin-top: -50px;
+            margin-left: -150px;
+        } 
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
