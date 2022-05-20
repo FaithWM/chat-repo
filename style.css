@@ -2396,8 +2396,245 @@ footer .container > span {
     }
 }
 @media screen and (max-width: 489px) {
-    
+    nav .list ul * {
+        font-size: 10.8px;
+    }
+    nav .extra {
+        right: 102px;
+        top: 60px;
+        width: 64px;
+        height: 28px;
+    }
+    nav .extra a {
+        font-size: 10.5px;
+    }
+    nav .extra a {
+        margin-left: 6px;
+        display: inline-block;
+        padding: 1px 4px 2px 3px;
+    }
+    nav .list {
+        top: 58px;
+        right: 180px;
+        font-size: 4px;
 }
+nav .list ul li {
+    margin-right: -5px;
+}
+section.upper .left .link .zero {
+    position: absolute;
+    top: -30px;
+     left: 50px;
+}
+section.upper .left .link .null {
+    position: absolute;
+    top: -30px;
+     left: 140px;
+}
+.profile1 {
+    left: 25px;
+    top: 200px;
+}
+section.upper .right .smile1 {
+    position: absolute;
+    top: 180px;
+    left: 240px;
+} 
+section.upper .right .profile1 span {
+    width: 4rem;
+}
+section.upper .right .smile2 {
+    position: absolute;
+    top: 320px;
+    left: 190px;
+}
+.profile2 {
+    left: 65px;
+    top: 400px;
+}
+.right .ellipse {
+    width: 2.5rem;
+    position: absolute;
+    left: 170px;
+    top: 255px;
+}
+section.middle .container .head p {
+    margin-left: -90px;
+    width: 300px;
+    height: 120px;
+    text-align: justify;
+    margin-top: -60px;
+}
+section.middle .head h1 {
+    text-align: left;
+    font-size: 1.5em;
+    position: relative;
+    left: -70px;
+    top: -50px;
+   }
+   section.middle .body .big.image {
+       top: -40px;
+       left: -100px;
+   }
+   section.middle .body .big.image img {
+    width: 320px;
+    height: 320px;
+   }
+   footer .table th,td {
+    padding-right: 5px;
+    text-align: center;
+    }
+    footer .table {
+        position: relative;
+        top: -35px;
+        left: -307px;
+   }
+   footer .intro p {
+    font-size: 11px;
+    width: 8rem;
+}
+footer .intro {
+    position: relative;
+    left: 10px;
+    top: -150px;
+}
+   }
+   
+   @media screen and (max-width: 470px) {
+    section.middle .container .head p {
+        margin-left: -70px;
+        width: 250px;
+        height: 120px;
+        font-size: 12px;
+    }
+    nav .logo {
+        margin-left: 10px;
+     }
+   }
+
+   @media screen and (max-width: 457px) {
+    nav .list {
+        top: 58px;
+        right: 150px;
+        font-size: 4px;
+} 
+nav .extra {
+    right: 182px;
+    top: 90px;
+    width: 64px;
+    height: 28px;
+}
+nav .extra a {
+    font-size: 10.5px;
+}
+nav .extra a {
+    margin-left: 6px;
+    display: inline-block;
+    padding: 1px 4px 2px 3px;
+}
+
+section.upper .left .link .zero {
+    position: absolute;
+    top: 140px;
+     left: -25px; 
+}
+section.upper .left .link .null {
+    position: absolute;
+    top: 140px;
+     left: 80px;
+}
+section.upper .left {
+    position: absolute;
+    top: -30px;
+    left: 150px;
+  }
+  section.upper {
+      min-height: 610px;
+  }
+  .profile1 {
+    left: -25px;
+    top: 270px;
+}
+section.upper .right .smile1 {
+    position: absolute;
+    top: 240px;
+    left: 180px;
+} 
+section.upper .right .profile1 span {
+    width: 4rem;
+}
+section.upper .right .smile2 {
+    position: absolute;
+    top: 390px;
+    left: 170px;
+}
+.profile2 {
+    left: 45px;
+    top: 460px;
+}
+.right .ellipse {
+    width: 2.5rem;
+    position: absolute;
+    left: 120px;
+    top: 315px;
+}
+section.lower .right .rating span {
+    font-size: 11px;
+    margin-left: -36px;
+}
+section.lower .right .rating .star {
+    width: 4rem;
+    margin-left: 40px;
+}
+footer .intro {
+    position: relative;
+    left: -15px;
+    top: -150px;
+}
+section.middle .body .big.image img {
+    width: 280px;
+    height: 290px;
+   }
+   nav .logo {
+    margin-left: -10px;
+ }
+ section.upper .left {
+    top: -30px;
+    left: 135px;
+  }
+  nav .list {
+    top: 58px;
+    right: 145px;
+    font-size: 10px;
+}
+      }
+
+      @media screen and (max-width: 441px) {
+          footer main .table th,td {
+              text-align: left;
+              vertical-align: top;
+              margin-right: 102px;
+              padding-right: 0;
+          }
+          footer .table {
+            position: relative;
+            top: -35px;
+            left: -317px;
+       }
+       section.middle .container .head p {
+        margin-left: -80px;
+        font-size: 11.7px;
+    }
+    section.middle .container .head h1 {
+        font-size: 1.4em;
+        font-weight: bold;
+        margin-left: 20px;
+    }
+      }
+    
+      @media screen and (max-width: 427px) {
+          
+      }
 
 
 
