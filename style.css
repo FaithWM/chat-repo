@@ -2252,9 +2252,152 @@ footer .container > span {
  }
 }
 @media screen and (max-width: 533px) {
-    
+    footer .table th,td {
+        padding-right: 6px;
+        text-align: center;
+        }
+        footer .table {
+            top: -80px;
+            left: 3px;
+       } 
+       nav .extra {
+        right: 72px;
+        top: 58px;
+        width: 68px;
+    }
+    nav .extra a {
+        font-size: 10.5px;
+    }
+    nav .extra a {
+        margin-left: 10px;
+        display: inline-block;
+        padding: 3px 4px 2px 3px;
+    }
+    nav .list {
+        top: 58px;
+        right: 140px;
+        font-size: 4px;
+
+    }
+    nav .list ul * {
+        font-size: 12px;
+    } 
+}
+ 
+@media screen and (max-width: 525px) {
+    footer .table th,td {
+        padding-right: 6px;
+        text-align: center;
+        }
+        footer .table {
+            position: relative;
+            top: -20px;
+            left: -270px;
+       }
+       footer .intro p {
+        font-size: 11px;
+        width: 8rem;
+    }
+    footer .container > span {
+        font-size: 11px;
+    }
+    footer .intro {
+        position: relative;
+        left: 40px;
+        top: -130px;
+    }
+    section.middle .body .down.image {
+        display: none;
+    }
+    .profile1 {
+        left: 55px;
+        top: 200px;
+    }
+    section.upper .right .smile1 {
+        position: absolute;
+        top: 160px;
+        left: 270px;
+    } 
+    section.upper .right .profile1 span {
+        width: 4rem;
+    }
+    section.upper .right .smile2 {
+        position: absolute;
+        top: 320px;
+        left: 210px;
+    }
+    .profile2 {
+        left: 85px;
+        top: 400px;
+    }
+    .right .ellipse {
+        width: 2.5rem;
+        position: absolute;
+        left: 200px;
+        top: 255px;
+    }
+    section.upper .left h1 {
+        font-size: 2em;
+      }
+      section.upper .container {
+          position: relative;
+      }
+      section.upper .left {
+          position: absolute;
+          top: 0;
+        }
+        section.upper .left .link .zero {
+            position: absolute;
+            top: 20px;
+             left: 155px;
+        }
+        section.upper .left .link .null {
+            position: absolute;
+            top: 20px;
+             left: 235px;
+        }
+}
+@media screen and (max-width: 510px) {
+    .pixel {
+        position: absolute;
+        top: 120px;
+        left: 40px;
+    }
+    section.lower .left .lower.image {
+        display: none;
+    }
+    section.lower .right {
+        margin-left: -300px;
+    }
+    section.lower .right .target {
+        margin-top: -10px;
+    }
+    section.lower .right .rating {
+        left: 50px;
+        top: 80px;
+    }
+    section.middle .container .head p {
+        margin-left: -70px;
+        width: 300px;
+        text-align: justify;
+  }
 }
 
+@media screen and (max-width: 5003px) {
+    section.upper .left .link .zero {
+        position: absolute;
+        top: -30px;
+         left: 100px;
+    }
+    section.upper .left .link .null {
+        position: absolute;
+        top: -30px;
+         left: 190px;
+    }
+}
+@media screen and (max-width: 489px) {
+    
+}
 
 
 
